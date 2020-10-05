@@ -1,0 +1,181 @@
+
+:root {
+  font-size: 10px;
+}
+.maindiv {
+  position: relative;
+  height: 45vw;
+  min-width: 100%;
+  transform: translate(-50% -50%);
+  background-image: url(./assets/1.jpg);
+  background-size: 100% 100%;
+  animation: slider 20s infinite linear;
+}
+
+@keyframes slider {
+  0% {
+    background-image: url(./assets/1.jpg);
+  }
+  20% {
+    background-image: url(./assets/2.jpg);
+  }
+  40% {
+    background-image: url(./assets/3.jpg);
+  }
+  60% {
+    background-image: url(./assets/4.jpg);
+  }
+  80% {
+    background-image: url(./assets/5.jpg);
+  }
+}
+
+.mapbanner img {
+  position: absolute;
+  margin-left: -285px;
+  margin-top: 50px;
+}
+.mapbanner {
+  color: #0eb493;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 4rem;
+  font-weight: 900;
+  background: #f7f7f7;
+  height: 70px;
+}
+
+.mapbox {
+  height: 40vw;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./assets/map.png);
+}
+
+.contactus {
+  width: 100%;
+  background-color: #0eb493;
+}
+
+.contacthead .title {
+  font-size: 35px;
+  letter-spacing: 0.2rem;
+
+  font-family: "Quicksand", sans-serif;
+  color: white;
+}
+.contacthead {
+  font-size: small;
+  text-align: center;
+}
+
+label {
+  font-size: 1.5rem;
+  font-family: "Quicksand", sans-serif;
+}
+.contactFlexContainer {
+  flex-wrap: wrap;
+  display: flex;
+  position: relative;
+  transform: translateX(-7%);
+  justify-content: center;
+}
+
+textarea {
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 5px;
+}
+form input {
+  border: 1px solid transparent;
+  outline: none;
+  width: 230px;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+
+  margin-bottom: 10px;
+  height: 27px;
+  border-radius: 5px;
+}
+.queriesLabel {
+  position: relative;
+  top: -50px;
+  left: -10px;
+}
+form Button {
+  height: 20px;
+  width: 80px;
+  margin-right: -110%;
+  position: relative;
+  top: -30px;
+  transform: translateX(260%);
+  font-size: 13px !important;
+}
+
+.contactUsLeftSection {
+  word-wrap: break-word;
+  width: 40vw;
+  margin-left: 20px;
+  text-align: left;
+  margin-top: 12px;
+}
+.logoContainerSocial {
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.logoContainerSocial img {
+  margin-left: 20px;
+  position: relative;
+  left: -20%;
+  transform: translateX(20%);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+.logoContainerSocial img:hover {
+  transform: scale(1.1);
+}
+
+.maindiv h1::after {
+  content: '!';
+}
+.maindiv h1 {
+
+  position: absolute;
+margin-top: 30%;
+  width: 100%;
+text-align: center;  
+font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 4vw;
+  letter-spacing: 1px;
+
+}
+
+.contactUsLeftSection h3{
+  font-family: 'Quicksand', sans-serif;
+}
+.contactUsLeftSection p{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.maindiv h1{
+  animation:fadeInLeft;
+  animation-duration: 5s;
+}
+
+.signUpIconCls{
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  height: 50px!important;
+  width: 50px!important;
+}

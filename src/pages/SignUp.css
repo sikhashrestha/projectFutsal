@@ -1,0 +1,103 @@
+.signupContainerMain {
+  position: absolute;
+  overflow-y: hidden;
+  height: 100vh;
+}
+.signBox {
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.45);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin-top: 130px;
+  margin-left: 80px;
+  background-color: white;
+  width: 25vw;
+  min-width: 355px;
+  height: 550px;
+
+  position: absolute;
+  z-index: 10000;
+}
+
+.bgimgsignup {
+  height: 120vh;
+  width: 100vw;
+  min-width: 1300px;
+}
+
+.signBox img {
+  margin-left: 25%;
+  position: absolute;
+  height: 155px;
+  width: 200px;
+}
+
+.formContainer {
+  display: flex;
+  margin-left: 20%;
+  margin-top: 200px;
+}
+
+.formContainer input {
+  background-color: rgba(248, 249, 252, 1);
+  height: 40px;
+}
+.formContainer input:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 400ms;
+}
+.submitBtnCls:active {
+transform: scale(1.2);
+
+
+}
+.submitBtnCls {
+  height: 35px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background: rgb(43, 204, 175);
+  cursor: pointer;
+  position: absolute;
+  top: 390px;
+  left: -430px;
+  font-family: "Quicksand", sans-serif;
+  width: 200px;
+}
+.submitBtnCls:hover {
+  background: rgba(43, 190, 170, 1);
+}
+
+.signUpIconCls {
+  position: absolute;
+  top: 7px;
+  left: -30px;
+  height: 25px !important;
+  width: 25px !important;
+}
+legend {
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+}
+legend div {
+  margin-left: 65px;
+  position: absolute;
+  top: 150px;
+}
+
+.policy {
+  font-size: 10px;
+  margin-top: 80px;
+  margin-left: 40px;
+  color: grey;
+}
+
+.login {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 105px;
+}
+
+.colorlog {
+  color: rgb(43, 204, 175);
+}

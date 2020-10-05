@@ -1,0 +1,292 @@
+
+.horizontalLine{
+    left: 305px;
+    margin-top: -120px;
+    transform: translateX(-47%);
+    width: 3px;
+    height: 880px;
+    background: rgb(14,180,147);
+    position: relative;
+}
+.aboutContainerRowOne {
+    margin-bottom: 112px;
+    margin-top: 253px;
+    flex-wrap: wrap;
+    display: flex;
+  justify-content: center;
+}
+
+.aboutContainerRowOne .oneCol{
+    height: 210px;
+width: 450px;
+}
+.aboutContainerRowOne .twoCol{
+    height: 210px;
+width: 260px;
+    
+}
+.aboutContainerRowTwo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 112px;
+
+    justify-content: center;
+  
+
+}
+
+.aboutContainerRowTwo .oneCol{
+    height: 210px;
+    width: 450px;
+        
+}
+.aboutContainerRowTwo .twoCol{
+    height: 210px;
+width: 260px;
+    
+}
+
+.aboutContainerRowThree {
+    flex-wrap: wrap;
+    margin-bottom: 112px;
+
+    display: flex;
+    justify-content: center;
+  
+}
+
+.aboutContainerRowThree .oneCol{
+    height: 210px;
+    width: 450px;
+        
+}
+.aboutContainerRowThree .twoCol{
+    height: 210px;
+width: 260px;
+    
+}
+.aboutContainerRowFour {
+    flex-wrap: wrap;
+    margin-bottom: 112px;
+
+    display: flex;
+    justify-content: center;
+  
+}
+
+.aboutContainerRowFour .oneCol{
+    height: 210px;
+    width: 450px;
+        
+}
+.aboutContainerRowFour .twoCol{
+    height: 210px;
+width: 260px;
+    
+}
+ 
+
+.imageOne,.imageTwo,.imageThree,.imageFour{
+  margin-left: 48%;
+    position: relative;
+    height: 177px;
+    top: -20px;
+    width: 177px;
+
+
+background-size: cover;
+    border: 1px solid transparent;
+     border-radius: 50%;
+}
+
+.imageOne{
+z-index: 1000;
+    top: -100px;
+    background-image: url(./assets/personal.jpg);
+    background-position-x: -40px;
+    background-position-y: -1px;
+    
+
+}
+
+
+.imageTwo{
+top: -5px;
+    background-image: url(./assets/timeSaving.jpg);
+    background-position-x: -40px;
+    background-position-y: -1px;
+    
+}
+
+
+.imageThree{
+    top: -100px;
+
+    background-image: url(./assets/mapPhoto.jpg);
+    background-position-x: -35px;
+    background-position-y: -1px;
+    
+}
+
+
+.imageFour{
+top: -5px;
+    
+    background-image: url(./assets/onlinePay.jpg);
+    background-position-x: -0.8px;
+    background-position-y: -1px;
+    
+}
+
+.firstP{
+position: relative;
+top: 110px;
+    width: 100%;
+    text-align:center;
+}
+.paragraphOnly{
+    width: 45%;
+    color: grey;
+    font-size: 15px;
+}
+.paragraphOnlyContainer{
+width: 100%;
+justify-content: center;
+display:flex;
+
+}
+.secondP{
+  font-family: 'Quicksand', sans-serif;
+font-weight: 900;
+color: grey;
+font-size: 11px;
+    width: 200px;
+
+}
+
+.thirdP{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+
+    width: 200px;
+}
+
+.fourthP{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+
+    width: 200px;
+}
+
+.fifthP{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+
+    width: 200px;
+
+}
+
+
+
+#heading{
+    font-family: 'Quicksand', sans-serif;
+font-size: x-large;
+    font-weight: 900;
+}
+
+
+.titleContainer{
+    width: 100%;
+    font-size: 40px;
+   text-align: center;
+}
+
+.amazingSmallTitle{
+ color: grey;
+    width: 100%;
+    font-size: 20px;
+   text-align: center;
+
+}
+.flexContainerAmazingTeam{
+    flex-wrap: wrap;
+    margin-top:90px ;
+    display: flex;
+ justify-content: center;
+}
+
+.cardOne,.cardTwo,.cardThree{
+    margin-left:65px;
+}
+.circleForAmazingTeam{
+    
+    height:220px;
+    width:220px;
+border-radius: 50%;
+background: black;
+}
+.lastParagraph{
+    margin-top: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.textLast{
+    text-align:center;
+    width: 600px;
+    color: grey;
+    font-size: 14px;
+
+}
+
+.firstphoto{
+    background-size:cover ;
+    background-position:center ;
+    background-position-y:-25px ;
+
+background-image:url(./assets/mitsuha.jpg) ;
+}
+
+.secphto{
+    
+    background-size:cover ;
+    background-position:center ;
+    background-position-x:-15px ;
+
+    background-image:url(./assets/nami.jpg) ;
+
+}
+
+.thirdphoto{
+    
+    background-size:cover ;
+    background-position:center ;
+    background-image:url(./assets/hinata.jpg) ;
+
+}
+
+.fourthphoto{
+    
+    background-size:cover ;
+    background-position:center ;
+    background-position-x:-150px ;
+
+    background-image:url(./assets/asuna.jpg) ;
+
+}
+
+.aboutheading{
+    position: relative;
+   top: -35px;
+   font-size: 35px!important;
+}
+
+.names{
+    font-size: medium;
+    margin-top: 15px;
+    margin-left: 61px;
+}
